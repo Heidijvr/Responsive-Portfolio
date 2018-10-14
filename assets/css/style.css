@@ -20,7 +20,6 @@ body {
     padding-right: 40px;
     padding-left: 40px;   
     border-bottom: 4px solid #cccccc;
-    position: static;
 }
 
 #mainHeader3 { 
@@ -31,14 +30,13 @@ body {
     padding-left: 40px;   
     border-bottom: 4px solid #cccccc;
     position: static;
+    overflow: hidden;
 }
-
-
 
 #header {
     width: 1000px;
     margin: 0px auto;
-             
+    position: static;             
 }
 
 #header2 {
@@ -76,6 +74,7 @@ body {
     padding-bottom: 10;
     background-color: #4aaaa5;
  }
+
  #name3 {
     text-align: left;
     font-size: 24;
@@ -90,25 +89,25 @@ body {
     background-color: #4aaaa5;
  }
 
-
 #menu {
     float: right;
     font-family: "Arial", "Helvetica", "sans-serif"; 
     font-size: 16; 
-    color: #666666;    
+    color: #666666; 
+    position: static;   
 }
-
 
 #indexMain {
     background-color: #ffffff;
-    width: 960px;
-    margin: 100px auto;
+    width: 60%;
+    margin-left: 270px;
     font-family: "Arial", "Helvetica", "sans-serif"; 
     color: #666666;
-    padding-top: 25px;
+    padding-top: 5px;
     padding-bottom: 25px;
     padding-right: 25px;
-    padding-left: 25px;     
+    padding-left: 25px;
+    overflow: hidden;     
 }
 
 #contactMain {
@@ -135,7 +134,6 @@ body {
     padding-bottom: 610; 
  }
 
-
 #footer {
     background-color: #666666;
     text-align: center;    
@@ -156,6 +154,9 @@ img {
     padding: 10px;
 }
 
+.Me {
+    width: 40%;
+}
 
 #images {
     float: left; 
@@ -204,25 +205,37 @@ input {
 }
 
 @media screen and (min-width: 640px){
-    #container {
-        font-size: 80px;
+    #mainHeader2 {      
         background-color:#4aaaa5
+} 
 }
 
 @media screen and (max-width: 640px) {
-    #container {
-        font-size: 30px;
+    #mainHeader2 {        
+        float: none;
+        width: 100%
 }
+.Me {
+    margin-left: 40%;
+    width: 90%;  
+}
+} 
 
 @media screen and (min-width: 768px) {
     #container {
         font-size: 80px;
-}     
+}  
+}   
 
-@media only screen and (max-width: 768px) {
-    [class="col-"] {
-        width: 100%;
-        font-size: 30px;
+@media only screen and (max-width: 768px) {  
+    #indexMain {
+         margin: 10px auto;
+} 
+.Me {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 60%;  
+}     
 }
 
 @media screen and (min-width: 980px) {
@@ -234,17 +247,3 @@ input {
     #container {
         font-size: 30px;    
 }
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
