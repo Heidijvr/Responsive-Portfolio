@@ -1,14 +1,11 @@
 ## Responsive-Portfolio
 
-In this app, I created two different portfolios. The first portfolio was layed out using the Bootstrap CSS Framework. The second will be enhancing
-the portfolio unit with a mobile-responsive layout ([Use the Responsive-Portfolio:smiley:](https://heidijvr.github.io/Responsive-Portfolio/)).
+This is a portfolio layed out with the use of Bootstrap and CSS. The portfolio unit is enhanced with a mobile-responsive layout ([Use the Responsive-Portfolio:smiley:](https://heidijvr.github.io/Responsive-Portfolio/)).
 This project is part of the front-end curriculum for the University of Washington Part-time Coding Bootcamp. 
 
 <img src="https://heidijvr.github.io/Responsive-Portfolio/assets/images/portfolio.screenshot.png" alt="Responsive-Portfolio">
 
-
 -----
-
 
 **Project Requirements:**
 
@@ -22,10 +19,10 @@ This project is part of the front-end curriculum for the University of Washingto
 
 -----
 
-
 **Built with:**
 
 * HTML
 * CSS
+* Bootstrap
 * Font Awesome
 * CSS Responsive via The Viewport  
