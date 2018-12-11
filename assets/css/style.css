@@ -6,104 +6,48 @@ body {
 #mainHeader {
     background-color: #ffffff;
     padding-top: 25px;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
     padding-right: 45px;
     padding-left: 45px;   
     border-bottom: 4px solid #cccccc;
     position: static;    
 }
 
-#mainHeader2 { 
-    background-color: #ffffff;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    padding-right: 40px;
-    padding-left: 40px;   
-    border-bottom: 4px solid #cccccc;
-}
-
-#mainHeader3 { 
-    background-color: #ffffff;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    padding-right: 40px;
-    padding-left: 40px;   
-    border-bottom: 4px solid #cccccc;
-    position: static;
-    overflow: hidden;
-}
-
 #header {
-    width: 1000px;
-    margin: 0px auto;
-    position: static;             
-}
-
-#header2 {
-    width: 880px;
-    margin: 0px auto;
-}
-#header3 {
-    width: 880px;
+    width: 870px;
     margin: 0px auto;
 }
 
 #name {
     text-align: left;    
-    font-size: 26pt;    
+    font-size: 24pt;  
+    color: #ffffff;  
     font-weight: bold;
     font-family: "Georgia", "Times New Roman", "Times", "Serif";
-    color: #ffffff;
     width: 100px;
     height: 100px;
-    padding: 45px;
+    padding: 40px;
     padding-top:25;
+    padding-bottom: 40px;
     background-color: #4aaaa5;
 }
-
-#name2 {
-    text-align: left;
-    font-size: 24;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: "Georgia", "Times New Roman", "Times", "Serif";
-    width: 100px;
-    height: 100px;
-    padding: 45px;
-    padding-top: 25;
-    padding-bottom: 10;
-    background-color: #4aaaa5;
- }
-
- #name3 {
-    text-align: left;
-    font-size: 24;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: "Georgia", "Times New Roman", "Times", "Serif";
-    width: 100px;
-    height: 100px;
-    padding: 45px;
-    padding-top: 25;
-    padding-bottom: 10;
-    background-color: #4aaaa5;
- }
 
 #menu {
     float: right;
     font-family: "Arial", "Helvetica", "sans-serif"; 
     font-size: 16; 
     color: #666666; 
-    position: static;   
+    position: static; 
+    padding-top: 15px;  
 }
+
 
 #indexMain {
     background-color: #ffffff;
-    width: 60%;
-    margin-left: 270px;
+    width: 1000px;
+    margin: 30px auto;
     font-family: "Arial", "Helvetica", "sans-serif"; 
-    color: #666666;
-    padding-top: 5px;
+    color: #666666;   
     padding-bottom: 25px;
     padding-right: 25px;
     padding-left: 25px;
@@ -111,27 +55,33 @@ body {
 }
 
 #contactMain {
-    width: 860px;
+    width: 880px;
     background-color: #ffffff;
     margin: 30px auto;
     font-family: "Arial", "Helvetica", "sans-serif";
     color: #666666;
-    padding-top: 3;
-    padding-left: 10;
-    padding-right: 10; 
-    padding-bottom: 15;   
+    padding: 15px;
+ }
+
+ #form {
+     /* padding-left: 10px;
+     padding-bottom: 10px; */
+     text-align: left;
+     margin: auto;
+     display: table;
+     /* font-size: 22px; */
  }
 
  #portfolioMain {
-    width: 860px;
+    width: 870px;
     background-color: #ffffff;
     margin: 30px auto;
     font-family: "Arial", "Helvetica", "sans-serif";
     color: #666666;
     padding-top: 3;
-    padding-left: 10;
-    padding-right: 10; 
-    padding-bottom: 610; 
+    padding-left: 15;
+    padding-right: 15; 
+    padding-bottom: 40px; 
  }
 
 #footer {
@@ -142,7 +92,8 @@ body {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;     
+    width: 100%; 
+    margin-top: 20px;    
 }
 
 p {
@@ -156,11 +107,6 @@ img {
 
 .Me {
     width: 40%;
-}
-
-#images {
-    float: left; 
-    padding: 20;  
 }
 
 .column {
@@ -177,9 +123,12 @@ img {
 
 h2 {
     border-bottom: 2px solid #dddddd;
-    padding-bottom: 18px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
     color: #4aaaa5;
     font-family: "Georgia", "Times New Roman", "Times", "Serif";
+    font-size: 38px;
 }
 
 .button { 
@@ -189,6 +138,12 @@ h2 {
     height: 40px;   
     width: 100;
     font-size: 16;
+    text-align: left;
+    margin: auto;
+}
+
+.buttonHolder {
+    text-align: center;
 }
 
 .button:hover {
@@ -205,13 +160,13 @@ input {
 }
 
 @media screen and (min-width: 640px){
-    #mainHeader2 {      
+    #mainHeader {      
         background-color:#4aaaa5
 } 
 }
 
 @media screen and (max-width: 640px) {
-    #mainHeader2 {        
+    #mainHeader {        
         float: none;
         width: 100%
 }
@@ -247,3 +202,4 @@ input {
     #container {
         font-size: 30px;    
 }
+

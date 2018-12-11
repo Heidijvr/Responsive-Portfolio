@@ -8,14 +8,14 @@
 </head>
 
 <body>
-    <div id="mainHeader2">
-    <div id="header2">
-        <span id="name2">Heidi JvR</span>
+    <div id="mainHeader">
+    <div id="header">
+        <span id="name">Heidi JvR</span>
     <div id="menu">
         <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <a href="index.html">About</a> |
+            <a href="portfolio.html">Portfolio</a> |
+            <a href="contact.html">Contact</a> 
         </nav>            
     </div>
     </div>           
@@ -23,18 +23,20 @@
 <div id="contactMain">
     <h2>Contact</h2>
 
-    <form action="/action_page.php">
+    <form action="/action_page.php" id="form">
         <h4>Name</h4>        
-            <input type="text" placeholder="Full name"/>               
+            <p><input type="text" placeholder=" Full name"/></p>               
         <h4>Email</h4>
-            <input type="text" placeholder="name@mail.com">
+            <p><input type="text" placeholder=" name@mail.com"></p>
         
         <h4>Message</h4>                                      
         <textarea rows="11" cols="119>">
         </textarea>
 
-    </form>                            
-    <input class="button" input type="submit">             
+    </form> 
+    <div class="buttonHolder">                          
+    <input class="button" input type="submit">
+    </div>              
 </div>
 
 <div id="footer">            
