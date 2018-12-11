@@ -60,14 +60,14 @@ body {
     margin: 30px auto;
     font-family: "Arial", "Helvetica", "sans-serif";
     color: #666666;
-    padding: 15px;
  }
 
  #form {
-     /* padding-left: 10px;
-     padding-bottom: 10px; */
+     /* padding-left: 15px;
+     padding-right: 15px;
+     padding-bottom: 15px; */
      text-align: left;
-     margin: auto;
+     margin: 0 auto;
      display: table;
      /* font-size: 22px; */
  }
@@ -78,10 +78,9 @@ body {
     margin: 30px auto;
     font-family: "Arial", "Helvetica", "sans-serif";
     color: #666666;
-    padding-top: 3;
-    padding-left: 15;
-    padding-right: 15; 
-    padding-bottom: 40px; 
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-bottom: 20px; 
  }
 
 #footer {
@@ -93,7 +92,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%; 
-    margin-top: 20px;    
+    margin-top: 20px;  
 }
 
 p {
@@ -102,11 +101,28 @@ p {
 
 img {
     float: left;
-    padding: 10px;
+    padding: 5px;
 }
 
+.images {
+    background-color: rgb(250, 242, 242); 
+    text-align: center;       
+}
+
+.images:hover {background-color: rgb(224, 220, 220);}
+
+.images:active {
+  background-color:rgb(211, 207, 207);
+  box-shadow: 0 5px rgb(180, 179, 179);
+  transform: translateY(4px);
+}
+
+#imageContainer {
+    text-align: center; 
+}
 .Me {
     width: 40%;
+    padding-right: 15px;
 }
 
 .column {
@@ -133,21 +149,22 @@ h2 {
 
 .button { 
     background: #4aaaa5; 
-    border: solid 1px #666666; 
+    border: solid 1px #90cdf7; 
     color: #ffffff;
     height: 40px;   
     width: 100;
-    font-size: 16;
-    text-align: left;
+    font-size: 20px;
+    text-align: center;
     margin: auto;
 }
 
 .buttonHolder {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .button:hover {
-    background-color: #666666
+    background-color: #6bcac5
 }
 
 .button:active {
