@@ -27,4 +27,4 @@ This project is part of the front-end curriculum for the University of Washingto
 
 * HTML
 * CSS
-* Bootstrap
+* CSS Responsive via The Viewport  
