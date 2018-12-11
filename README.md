@@ -4,7 +4,7 @@ In this app, I created two different portfolios. The first portfolio was layed o
 the portfolio unit with a mobile-responsive layout ([Use the Responsive-Portfolio:smiley:](https://heidijvr.github.io/Responsive-Portfolio/)).
 This project is part of the front-end curriculum for the University of Washington Part-time Coding Bootcamp. 
 
-<img src="https://github.com/Heidijvr/Responsive-Portfolio/blob/master/assets/images/screenshot.index.png" alt="Responsive-Portfolio">
+<img src="https://github.com/Heidijvr/Responsive-Portfolio/blob/master/assets/images/sresponsive.screenshot.index.png" alt="Responsive-Portfolio">
 
 
 -----
@@ -27,4 +27,5 @@ This project is part of the front-end curriculum for the University of Washingto
 
 * HTML
 * CSS
+* Font Awesome
 * CSS Responsive via The Viewport  
