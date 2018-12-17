@@ -4,6 +4,7 @@ This is a portfolio layed out with the use of Bootstrap and CSS. The portfolio u
 This project is part of the front-end curriculum for the University of Washington Part-time Coding Bootcamp. 
 
 <img src="https://heidijvr.github.io/Responsive-Portfolio/assets/images/screencapture.png" alt="Responsive Portfolio">
+https://heidijvr.github.io/Responsive-Portfolio/
 
 -----
 
