@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heidi JvR: Contact</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-
-    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style2.css"/>  
 </head>
-
 <body>
-<div id="mainHeader">
-    <div id="header">
-        <span id="name"><i class="fas fa-frog"></i> Heidi JvR</span>
-        <div id="menu">
+    <header>
+        <div class="headerContents">
+            <div class="logo">
+                <h3>Heidi J van Rensburg</h3>
+            </div>
             <nav>
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a> 
-            </nav>            
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li style="list-style: none">|</li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li style="list-style: none">|</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>           
-</div>
-
-<div id="contactMain">
-    <h2>Contact</h2>
-    <form action="/action_page.php" id="form">
-        <h4>Name</h4>        
-            <p><input type="text" placeholder=" Full name"/></p>               
-        <h4>Email</h4>
-            <p><input type="text" placeholder=" name@mail.com"></p>        
-        <h4>Message</h4>                                      
-        <textarea rows="11" cols="119>">
-        </textarea>
-    </form> 
-    <div class="buttonHolder">                          
-        <input class="button" input type="submit">
-    </div>              
-</div>
-
-<div id="footer">            
-    <p>Unpublished work &#169; 2018 Heidi Jansen van Rensburg</p>      
-</div> 
-
+    </header>
+    <div class="mainSection">
+        <div class="contentBox">
+            <h2>Contact</h2>
+            <hr>
+            <form>
+                <h4>Name</h4><input name="Name" placeholder="John Harris" type="text">
+                <h4>Email</h4><input name="Email" placeholder="john@harris.com" type="email">
+                <h4>Message</h4>
+                <textarea placeholder="Type message here"></textarea> <button class="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+<footer>            
+    <h5>Copyright &#169; 2018 </h5>      
+</footer>
 </body>
 </html>
