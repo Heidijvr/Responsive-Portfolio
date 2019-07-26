@@ -3,7 +3,7 @@
 This is a portfolio layed out with the use of Bootstrap and CSS. The portfolio unit is enhanced with a mobile-responsive layout ([Use the Responsive-Portfolio webpage:smiley:](https://heidijvr.github.io/Responsive-Portfolio/portfolio.html)).
 This project is part of the front-end curriculum for the University of Washington Part-time Coding Bootcamp. 
 
-<img src="https://github.com/Heidijvr/Responsive-Portfolio/blob/master/images/screenshot.RP.png" alt="Responsive Portfolio">
+<img src="https://github.com/Heidijvr/Responsive-Portfolio/blob/master/images/screenshotPortfolio.png" alt="Responsive Portfolio">
 
 
 -----
