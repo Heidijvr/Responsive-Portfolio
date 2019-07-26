@@ -1,12 +1,12 @@
 :root {
 	--headline-font: 'Neuton', serif;
 	--p-font: 'Roboto', sans-serif;
-	--brand-orange: #f8cca4da;
+	--brand-orange:rgb(156, 140, 119);
     --brand-teal: #4aaaa5d0;
 }
 
 body {
-    background-image: url(../images/white.Canvas.Background.jpg);
+    background-image: url(../images/background.cardboard.texture.jpg);
     background-repeat: repeat;
     /* background-color: #eee; */
 
@@ -33,6 +33,7 @@ header {
     justify-content: flex-start;
     height: 100px;
     width: 100%;
+    color: rgb(156, 140, 119);
 }
 .logo {
     position: relative;
@@ -44,13 +45,13 @@ header {
     padding-bottom: 10px;
     height: 100px;
     width: 90%;
-    background-color:#f8cca4da;
+    background-color:rgb(156, 140, 119);
 }
 .logo h1 {
     font-family: var(--headline-font);
     font-size: 7vmax;
     font-weight: 700;
-    color: #fff;
+    color:rgb(156, 140, 119);
     margin: 30px 0;
 }
 nav {
@@ -211,6 +212,27 @@ textarea {
     line-height: 1.5em;
     color: #777;
 }
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  } 
+
+  
 footer {
     position: fixed;
     left: 0px;
